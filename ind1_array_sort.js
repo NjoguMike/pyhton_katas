@@ -42,7 +42,6 @@ function solution(arr){
               result.push(sub_start)
               break;
           }
-          
       }
 
       for (let x = arr.length -1; x >=0; x--){
