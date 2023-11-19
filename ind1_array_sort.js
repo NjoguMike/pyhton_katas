@@ -22,6 +22,8 @@ function solution(arr){
     let result = []
     
     //sorted copmarison array
+    // array1 = [2,3,6,7,3,9,12,10]
+    // sorted array = [ 2, 3,  3,  6, 7, 9, 10, 12 ]
     sorted = new_arr.sort(function(a,b){return a-b})
   reverse_sort = reverse.sort(function(a,b){return b-a})
 
